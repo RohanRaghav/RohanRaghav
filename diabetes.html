@@ -1,0 +1,496 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>CareCentral</title>
+    <style type="text/css">
+         @mixin main-font {
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+@mixin second-font {
+  font-family: 'Poppins', sans-serif;
+}
+               body {
+        margin: 0;
+            font-size: 17px;
+            font-family:Times New Roman;
+            
+  font-weight: 300;
+        }
+        
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+}
+    hr {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        color: #000000;
+      }
+        h1{
+            font-style:oblique;
+        }
+ 
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}  
+        .dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+    text-decoration-color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+        button {
+  background-color:cornsilk;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color:aliceblue;
+  padding-top: 60px;
+}
+
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  border: 1px solid #888;
+  width: 80%; 
+}
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+    button.abc
+    {
+        background-color: transparent;
+    }
+    </style></head>
+    <body>
+        <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <center><span style="color: aliceblue"><h2>For certain help</h2></span></center>
+    <div class="dropdown">
+    <button class="dropbtn" onclick="document.getElementById('id04').style.display='block'" style="width:auto;">
+    <span style="color: aliceblue"><h2>Professional doctor's contacts</h2></span>
+        <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" onclick="document.getElementById('id04').style.display='block'" style="width:auto;">
+        <span style="color: aliceblue">9811XXXXXX<br>7838XXXXX</span>
+        </div>
+  </div><br>
+    <div class="dropdown">
+    <button class="dropbtn" onclick="document.getElementById('id04').style.display='block'" style="width:auto;">
+        <span style="color: aliceblue"><h2>Clinics</h2></span>
+        <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+        
+        <span style="color: aliceblue"><img src="location.png" align= center>Faridabad,bhatia colony........</span>
+        </div>
+  </div>
+    <br>
+  <div class="dropdown">
+      <button class="dropbtn" onclick="document.getElementById('id04').style.display='block'" style="width:auto;"><span style="color: aliceblue"><h2>Emergency number</h2></span><i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+        
+        <span style="color: aliceblue">101</span>
+        </div>
+  </div><br>
+  <div class="dropdown">
+      <button class="dropbtn" onclick="document.getElementById('id04').style.display='block'" style="width:auto;"><span style="color: aliceblue"><h2>Mail id</h2></span><i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+        <img src="mail.png" height="10px"><span style="color: aliceblue">rohanraghav81@gmail.com</span>
+        </div>
+  </div>
+</div>
+        <script>
+var modal = document.getElementById('id04');
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+        <script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+    <h1 align=center>Welcome!</h1>
+        <p align=center>Help us by slecting the problems you are facing now a days through which we can identify the type of diabetes</p>
+        <center><form>
+        <label>Nausea</label><input type="checkbox" id="checkbox1" name="checkbox1" value="checkbox1"><br>
+            <label>Vomiting</label><input type="checkbox" id="checkbox2" name="checkbox2" value="checkbox2"><br>
+            <label>Stomach pains</label><input type="checkbox" id="checkbox3" name="checkbox3" value="checkbox3"><br>
+            <label>Urinate (pee) a lot, often at night</label><input type="checkbox" id="checkbox4" name="checkbox4" value="checkbox4"><br>
+            <label>Are very thirsty</label><input type="checkbox" id="checkbox5" name="checkbox5" value="checkbox5"><br>
+            <label>Lose weight without trying</label><input type="checkbox" id="checkbox6" name="checkbox6" value="checkbox6"><br>
+            <label>Are very hungry</label><input type="checkbox" id="checkbox7" name="checkbox7" value="checkbox7"><br>
+            <label>Have blurry vision</label><input type="checkbox" id="checkbox8" name="checkbox8" value="checkbox8"><br>
+            <label>Have numb or tingling hands or feet</label><input type="checkbox" id="checkbox9" name="checkbox9" value="checkbox9"><br>
+            <label>Feel very tired</label><input type="checkbox" id="checkbox10" name="checkbox10" value="checkbox10"><br>
+            <label>Have very dry skin</label><input type="checkbox" id="checkbox11" name="checkbox11" value="checkbox11"><br>
+            <label>Have sores that heal slowly</label><input type="checkbox" id="checkbox12" name="checkbox12" value="checkbox12"><br>
+            <label>Have more infections than usual</label><input type="checkbox" id="checkbox13" name="checkbox13" value="checkbox13"><br>
+            <label>Dry Mouth</label><input type="checkbox" id="checkbox14" name="checkbox14" value="checkbox14"><br>
+            <label>Genital itching or thrush</label><input type="checkbox" id="checkbox15" name="checkbox15" value="checkbox15"><br>
+            <label>*If you are a pragnent women select this and symptoms</label><input type="checkbox" id="checkbox16" name="checkbox16" value="checkbox16">
+            <button type="submit">Submit</button>
+        </form></center>
+        <div id="message"></div>
+        <script>
+        document.querySelector('form').addEventListener('submit', function(e) {
+    e.preventDefault(); 
+    getSelectedCheckboxes(); 
+  });
+
+  function getSelectedCheckboxes() {
+    var selectedCheckboxes = [];
+
+    
+    var checkboxes = document.querySelectorAll('input[type=checkbox]');
+    for (var i = 0; i < checkboxes.length; i++) {
+      if (checkboxes[i].checked) {
+        selectedCheckboxes.push(checkboxes[i].value);
+      }
+    }
+
+    
+    var output = document.getElementById('output');
+    output.innerHTML = ""; 
+
+    if (selectedCheckboxes.length == 0) {
+      output.innerHTML = "Please select at least one checkbox.";
+    } else if{
+      var message = "You have selected: ";
+      if (selectedCheckboxes.includes("checkbox1")) {
+        message += "Checkbox 1, ";
+      }
+      if (selectedCheckboxes.includes("checkbox2")) {
+        message += "Checkbox 2, ";
+      }
+      if (selectedCheckboxes.includes("checkbox3")) {
+        message += "Checkbox 3, ";
+      }
+        
+      if (selectedCheckboxes.includes("checkbox4")) {
+        message += "Checkbox 4, ";
+      }
+      if (selectedCheckboxes.includes("checkbox5")) {
+        message += "Checkbox 5, ";
+      }
+      if (selectedCheckboxes.includes("checkbox10")) {
+        message += "Checkbox 10, ";
+      }
+    
+      message = message.slice(0, -2); 
+      output.innerHTML"You are facing type 1 " = message;
+    }
+      else if{
+        var message = "You have selected: ";
+      if (selectedCheckboxes.includes("checkbox3")) {
+        message += "Checkbox 3, ";
+      }
+      if (selectedCheckboxes.includes("checkbox5")) {
+        message += "Checkbox 5, ";
+      }
+      if (selectedCheckboxes.includes("checkbox6")) {
+        message += "Checkbox 6, ";
+      }
+        
+      if (selectedCheckboxes.includes("checkbox7")) {
+        message += "Checkbox 7, ";
+      }
+      if (selectedCheckboxes.includes("checkbox8")) {
+        message += "Checkbox 8, ";
+      }
+      if (selectedCheckboxes.includes("checkbox10")) {
+        message += "Checkbox 10, ";
+      }
+    
+      if (selectedCheckboxes.includes("checkbox12")) {
+        message += "Checkbox 12, ";
+      }
+          
+      if (selectedCheckboxes.includes("checkbox13")) {
+        message += "Checkbox 13, ";
+      }
+      if (selectedCheckboxes.includes("checkbox9")) {
+        message += "Checkbox 9, ";
+      }
+      if (selectedCheckboxes.includes("checkbox11")) {
+        message += "Checkbox 11, ";
+      }
+      message = message.slice(0, -2); 
+      output.innerHTML"You are facing type 2 " = message;
+      }
+      else{
+        var message = "You have selected: ";
+      if (selectedCheckboxes.includes("checkbox4")) {
+        message += "Checkbox 4, ";
+      }
+      if (selectedCheckboxes.includes("checkbox5")) {
+        message += "Checkbox 5, ";
+      }
+      if (selectedCheckboxes.includes("checkbox8")) {
+        message += "Checkbox 8, ";
+      }
+      if (selectedCheckboxes.includes("checkbox10")) {
+        message += "Checkbox 10, ";
+      }
+    
+      if (selectedCheckboxes.includes("checkbox14")) {
+        message += "Checkbox 14, ";
+      }
+          
+      if (selectedCheckboxes.includes("checkbox15")) {
+        message += "Checkbox 15, ";
+      }
+      if (selectedCheckboxes.includes("checkbox16")) {
+        message += "Checkbox 16, ";
+      }
+      message = message.slice(0, -2); 
+      output.innerHTML"You are facing gestational diabetes " = message;
+          
+      }
+  }
+        </script><center>
+        <p>On base of type of diabetes here is </p>
+        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Type 1 diabetes</button>
+        <div id="id01" class="modal">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="type1diabetes.jpeg.jpg" alt="Avatar" class="avatar" height="300px">
+            <div class="container">
+            <p>The immune system, the body's natural defense against disease and infection, mistakenly views pancreas cells as hazardous, leading to type 1 diabetes.
+Without insulin, your body would begin metabolizing its own fat and muscle, which would make you lose weight. This can result in diabetic ketoacidosis, a dangerous short-term disease. At this point, the bloodstream turns acidic, you experience dangerously high blood ketone levels, and you experience acute dehydration.
+As a result, the body cannot create insulin, which transports glucose from the blood to your cells. This is where it may be used as fuel. It's Type 1 diabetes.
+                <button onclick="document.getElementById('id05').style.display='block'" style="width:auto; background-color: transparent;" class="abc"><u>Click here</u></button><div id="id01" class="modal">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="type1diabetes.jpeg.jpg" alt="Avatar" class="avatar" height="300px">
+            <div class="container">
+                Diagnostic tests include:<br><ul>
+                <li>Glycated hemoglobin (A1C) test.</li>
+                <li>Random blood sugar test.</li></ul></div>
+            </div></div>
+        <script>
+var modal = document.getElementById('id05');
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+                <p> to get a detailed information about treatments and Diagnosis
+</p>
+            </div>
+            </div></div>
+        <script>
+var modal = document.getElementById('id01');
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+        &nbsp;&nbsp;
+        <button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Type 2 diabetes</button>
+        <div id="id02" class="modal">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="type2diabetes.jpeg.jpg" alt="Avatar" class="avatar" height="300px">
+            <div class="container">
+            <p>A dysfunction in the body's ability to control and utilise sugar as fuel results in type 2 diabetes. This sugar is also known as glucose. Too much sugar flows into the blood due to this chronic illness. Over time, cardiovascular, neurological, and immune system issues might result from excessive blood sugar levels.
+Generally speaking, type 2 diabetes has two issues. Insulin, a hormone that controls how quickly sugar enters cells, is not produced by the pancreas in sufficient amounts. Additionally, cells absorb less sugar and have poor insulin responses.
+Although type 1 and type 2 diabetes can start in childhood and in adulthood, type 2 diabetes used to be known as adult-onset diabetes. Type 2 is more prevalent.     
+                </p>
+            </div>
+            </div></div>
+        
+            <script>
+var modal = document.getElementById('id02');
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+&nbsp;&nbsp;
+                 <button onclick="document.getElementById('id03').style.display='block'" style="width:auto;">Gestational diabetes</button>
+        <div id="id03" class="modal">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id03').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="gestational.jpeg" alt="Avatar" class="avatar" height="300px">
+            <div class="container">
+            <p>High blood sugar (glucose) is a symptom of gestational diabetes, which normally takes away after delivering delivery.
+Although it can occur at any time during pregnancy, it usually occurs in the second or third trimester.
+It occurs when your body cannot produce enough of the hormone insulin, which regulates blood sugar levels, to fulfil your increased needs during pregnancy.
+Gestational diabetes throughout pregnancy and after delivery might be problematic for you and your unborn child. But if the condition is identified quickly and managed, the risks can be minimised.
+</p>
+            </div>
+            </div></div>
+        </center>
+            <script>
+var modal = document.getElementById('id03');
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>   
+        <h6 align=right><a href="#top">Back to top</a></h6>
+    </body>
+</html>
