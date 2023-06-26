@@ -1,0 +1,635 @@
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+    Prodent
+    </title>
+    <style>
+        * {
+  box-sizing: border-box;
+}
+#myVideo {
+  position:fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+        body {
+        margin: 0;
+            font-size: 17px;
+            font-family:Times New Roman,serif;   
+  font-weight: 300;
+        }       
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+        @media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}  
+    hr {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        color: #000000;
+      }
+        h1{
+            font-style:oblique;
+        }
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}  
+        .button {
+  border-radius: 50%;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #666;
+  border: none;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #ccc}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+        .sell{
+            display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color:#333;
+  border: none;
+  border-radius: 70%;
+  box-shadow: 0 9px #999;
+        }
+        .sell:hover{ background-color: black;}
+        .sell:active{
+            background-color:#333;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+        video {
+  object-fit:cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.video-wrapper {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header{
+  position: relative;
+  color: white;
+  text-shadow: 1px 1px 8px rgba(0,0,0,0.6);
+}
+        .dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: white;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+    text-decoration-color: white;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+    button:hover {
+  opacity: 0.8;
+}
+.container {
+  padding: 16px;
+}
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+  padding-top: 60px;
+}
+.modal-content {
+  background-color:blueviolet;
+  margin: 5% auto 15% auto;
+  border: 1px solid #888;
+  width: 80%; 
+}
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+} 
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}  
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:mintcream;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+    
+.topnav {
+  overflow: hidden;
+  background-color:mintcream;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .login-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  width:120px;
+}
+
+.topnav .login-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background-color: #555;
+  color: white;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .login-container button:hover {
+  background-color: green;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .login-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .login-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+    .submission {
+        background-color: darkgray;
+    }
+}
+    </style>
+    </head>
+    <body>
+              <div class="video-wrapper">
+        <video autoplay muted loop id="myVideo">
+            <source src="C:\Users\dell\Desktop\movie-project-15711.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+        <script>
+var vid = document.getElementById("myVideo");
+
+function getPlaySpeed() { 
+  alert(vid.playbackRate);
+} 
+
+function setPlaySpeed() { 
+  vid.playbackRate = 0.05;
+} 
+</script> </div>
+            <div class="header">
+                <div class="topnav">
+     <nav><div class="login-container">
+<button type="submit" onclick="document.getElementById('id04').style.display='block'" style="width:auto;">Login</button>
+             <div id="id04" class="modal">
+  <form class="modal-content animate" method="post">
+      <span onclick="document.getElementById('id04').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <div class="container">
+          <div style="text-align: center;">
+       <label for="username"><b>Username:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></label>
+              <label for="usernames"></label><input type="text" id="usernames" placeholder="Enter Username"><br><br>
+        <span id="message" style="color: chartreuse"> </span>
+      <label for="password"><b>Password:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></label>
+      <input type="password" id="password" placeholder="Enter Password">
+        <span id="messages" style="color: chartreuse"> </span><br><br>
+              <label for="passwords"><b>Confirm Password:</b></label><input type="password" id="passwords" placeholder="Confirm Password"><br>
+            <span id="messagess" style="color: chartreuse"> </span>
+           <div style="text-align: center;"> 
+      <label>         <input type="checkbox" checked="checked" name="remember"> Remember me</label><br>
+      <button type="submit" class="submission" onclick="return myfun()" style="width: 100%;">Login</button></div>
+              </div>
+    </div>
+       <script>
+  function myfun()
+        {
+            const b = document.getElementById("username").value;
+            const a = document.getElementById("password").value;
+            const c = document.getElementById("passwords").value;
+            if(b===" ")
+                {
+                        document.getElementById("message").innerHTML="Please fill username";
+                    return false;
+                }
+            if(b.length<5)
+                {
+                    document.getElementById("message").innerHTML="Please fill username more than 5 letters";
+                    return false;
+                }
+            if(b.length>20)
+                {
+                    document.getElementById("message").innerHTML="You crossed the username limits";
+                    return false;
+                }
+            
+            if(a===" ")
+                {
+                    document.getElementById("messages").innerHTML="Please fill password";
+                    return false;
+                }
+            if(a.length<5)
+                {
+                    document.getElementById("messages").innerHTML="Please fill password more than 5 letters";
+                    return false;
+                }
+            if(a.length>20)
+                {
+                    document.getElementById("messages").innerHTML="You crossed the password limits";
+                    return false;
+                }
+            if(a!==c)
+                {
+                    document.getElementById("messagess").innerHTML="Please enter same password";
+                    return false;
+                }
+        }
+</script>
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id04').style.display='none'" style="align-content: center;" class="submission">Cancel</button><br><br><br><br>
+      <h4 style="float: left"><span>Forgot <a href="#">password?</a></span><br><br></h4>
+        Wanna aproach without login? <a href="file:///C:/Users/dell/Desktop/recomandations.html">Click here</a><br><br>
+        <h4 align= right><br>Already a member? <button onclick="document.getElementById('id06').style.display='block'" style="background-color: transparent;"><span style="color: black;">Sign in</span></button></h4>
+    </div>
+  </form>
+<script>
+    const modal = document.getElementById('id04');
+
+    window.onclick = function(event) {
+    if (event.target === modal) {
+        modal.style.display = "none";
+    }
+}
+                 </script></div>
+<button onclick="document.getElementById('id06').style.display='block'" style="width:auto;">Sign in</button>
+             <div id="id06" class="modal">
+  <form class="modal-content animate" method="post">
+      <span onclick="document.getElementById('id06').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <div class="container">
+          <div style="text-align: center;">
+                 <label for="username">Your username</label>
+            <input type="text" id="username" placeholder="Enter Username" class="user"><br>
+              <span id="tk" style="color: chartreuse"> </span>
+            <br><br>
+            <label for="password">Your password</label>
+              <label>
+                  <input type="password" placeholder="Enter Password" class="user">
+              </label><br>
+              <span id="rr" style="color: chartreuse"> </span>
+            <br><br>
+             <button type="submit" onclick="return myfunc()">Sign in</button>
+          </div>
+          <script>
+          function myfunc()
+              {
+                  const b = document.getElementById("username").value;
+                  const a = document.getElementById("password").value;
+                  if(b===" ")
+                {
+                        document.getElementById("tk").innerHTML="Please fill username";
+                    return false;
+                }
+            if(b.length<5)
+                {
+                    document.getElementById("tk").innerHTML="Please fill username more than 5 letters";
+                    return false;
+                }
+            if(b.length>20)
+                {
+                    document.getElementById("tk").innerHTML="You crossed the username limits";
+                    return false;
+                }
+            
+            if(a===" ")
+                {
+                    document.getElementById("rr").innerHTML="Please fill password";
+                    return false;
+                }
+            if(a.length<5)
+                {
+                    document.getElementById("rr").innerHTML="Please fill password more than 5 letters";
+                    return false;
+                }
+            if(a.length>20)
+                {
+                    document.getElementById("rr").innerHTML="You crossed the password limits";
+                    return false;
+                }
+              }
+          </script>
+      </div></form></div></div> </nav>
+<div id="mySidenav" class="sidenav">
+  <span class="close" onclick="closeNav()">&times;</span>
+    <div style="text-align: center;"><img alt="Please refresh" height="200" src="logo-no-background.png"></div>
+    <div class="dropdown">
+    <button class="dropbtn" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">
+    <div style="text-align: center;"><h2 style="color: blueviolet;">About</h2>
+        <i class="fa fa-caret-down"></i></div>
+    </button><br>
+    <div class="dropdown-content" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">
+        <img alt="Please refresh" height="20" src="location.png"><span style="color: black">Chandigarh university, Mohali</span>
+        </div>
+  </div><br><br><br><br>
+    <div class="dropdown">
+    <button class="dropbtn" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">
+        <div style="text-align: center;"><h2 style="color: blueviolet;">Services</h2></div>
+        <i class="fa fa-caret-down"></i>
+    </button><br>
+    <div class="dropdown-content">
+        <span style="color:black">jbasvjipiafs</span>
+        </div>
+  </div>
+    <br><br><br><br>
+  <div class="dropdown">
+      <button class="dropbtn" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">
+          <div style="text-align: center;"><h2 style="color: blueviolet;">Clients</h2></div><i class="fa fa-caret-down"></i>
+    </button>    <br>    
+    <div class="dropdown-content">
+        <span style="color: black">jbasvjipiafs</span>
+        </div>
+  </div><br><br><br><br>
+  <div class="dropdown">
+      <button class="dropbtn" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">
+          <div style="text-align: center;"><h2 style="color: blueviolet;">Contact</h2></div><i class="fa fa-caret-down"></i>
+    </button><br>
+    <div class="dropdown-content">
+        <img alt="mail" height="20" src="mail.png"><span style="color: black">rohanraghav81@gmail.com</span>
+        </div>
+  </div>
+</div>
+        <script>
+            const modal = document.getElementById('id01');
+            window.onclick = function(event) {
+    if (event.target === modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+        <script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script></div>
+                <div style="text-align: center;">
+                    <br>
+                    <img alt="Logo" height="250" src="logo-no-background.png"><br>
+        
+    <h1><button class="button" onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Request your project here</button></h1>
+                    <div id="id02" class="modal">
+  <form class="modal-content animate" method="post">
+      <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <div class="container">
+    <label>Topic name:</label><br><label>
+          <input type="text" maxlength="20" lang="en" size="50">
+      </label>
+          <br><br>
+          <label>Description about project:</label><br><label>
+          <input type="text" size="50">
+      </label>
+          <br><br>
+    <label>Deadline:</label><br><label>
+          <input type="date">
+      </label>
+          <br><br>
+        <label>Image of project:</label><input type="file" accept="image/jpeg,image/png">
+        <br><br>
+        <label>Price:</label>
+          <label>
+              <input type="number" min="100">
+               <label>Mail id:</label><input type="text">
+              <label>Contact:</label><input type="number">
+          </label><br><br><button>Submit</button>
+    </div>
+    <div class="container" style="background-color:#f1f1f1; color: black;"><h3>Important:</h3>
+        <p>Please note that our website provides you facility to sell your projects at minimum costs ₹100/-.We support Indian currency, so you are requested to fill the form on the base of Indian currency. Please enter a proper description for your project as a concern as changes can't be accepted.</p>
+          </div>
+  </form>
+</div>
+                    <script>
+                        const modal = document.getElementById('id02');
+                        window.onclick = function(event) {
+    if (event.target === modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+&nbsp;
+                    <a href="file:///C:/Users/dell/Desktop/recomandations.html"><h1><button class="button" style="width: auto;" onclick="">Check projects</button></h1></a>
+&nbsp;<h1>
+    <button class="sell" onclick="document.getElementById('id03').style.display='block'" style="width:auto;">Sell your project here</button></h1>
+    <div id="id03" class="modal">
+  <form class="modal-content animate" method="post">
+      <span onclick="document.getElementById('id03').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <div class="container">
+          <div style="text-align: center;">
+              <label>Project Name:</label><br><label>
+              <input type="text" maxlength="20" lang="en" size="50">
+          </label><br>
+              <label>Description about project:</label><br><label>
+              <input type="text" size="50">
+          </label>
+              <br><br>
+              <label>Image of project:</label><input type="file" accept="image/jpeg, image/png">
+              <br><br>
+              <label>Cost:</label><label>
+              <input type="number" min="100">
+          </label>
+              
+               <label>Mail id:</label><input type="text">
+              <label>Contact:</label><input type="number">
+              <br><br>
+              <button>Submit</button>
+              </div>
+          </div>
+    <div class="container" style="background-color:#f1f1f1; color: black;">
+        <h3>Important:</h3>
+        <p>Please note that our website provides you facility to sell </p>
+        your projects at minimum costs ₹100/-.We support Indian currency, so you are requested to fill the form on the
+        base of Indian currency.
+      </div>
+  </form>
+</div>
+                    <script>
+                        const modal = document.getElementById('id03');
+
+                        window.onclick = function(event) {
+    if (event.target === modal) {
+        modal.style.display = "none";
+    }
+}
+</script>    
+   <br> <div id="comp-iraqdugr" class="comp-iraqdugr WzbAF8" data-angle="0" data-angle-style-location="style" data-screen-in-hide="done" style="visibility: inherit;">
+    <a data-testid="linkElement" href="https://www.facebook.com/profile.php?id=100085126955071&mibextid=ZbWKwL" target="_blank" class="oRtuWN">
+    <wow-image id="img_0_comp-iraqdugr" class="HlRz5e YaS0jR" data-image-info="{&quot;containerId&quot;:&quot;dataItem-iraqduk2-comp-iraqdugr&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;imageData&quot;:{&quot;width&quot;:200,&quot;height&quot;:200,&quot;uri&quot;:&quot;0fdef751204647a3bbd7eaa2827ed4f9.png&quot;,&quot;name&quot;:&quot;&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}" data-bg-effect-name="" data-has-ssr-src="" style="--wix-img-max-width:max(200px, 100%)" data-src="https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_33,h_33,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/0fdef751204647a3bbd7eaa2827ed4f9.png">
+    <img alt="Facebook" fetchpriority="high" src="https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_33,h_33,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/0fdef751204647a3bbd7eaa2827ed4f9.png" style="width: 26px; height: 26px; object-fit: cover;">
+        </wow-image></a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a data-testid="linkElement" href="https://twitter.com/RohanRaghav1366?t=lw-nPzhffnAJplOelwDfWA&s=09" target="_blank" class="oRtuWN"><wow-image id="img_1_comp-iraqdugr" class="HlRz5e YaS0jR" data-image-info="{&quot;containerId&quot;:&quot;dataItem-iraqduk22-comp-iraqdugr&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;imageData&quot;:{&quot;width&quot;:200,&quot;height&quot;:200,&quot;uri&quot;:&quot;c7d035ba85f6486680c2facedecdcf4d.png&quot;,&quot;name&quot;:&quot;&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}" data-bg-effect-name="" data-has-ssr-src="" style="--wix-img-max-width:max(200px, 100%)" data-src="https://static.wixstatic.com/media/c7d035ba85f6486680c2facedecdcf4d.png/v1/fill/w_33,h_33,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c7d035ba85f6486680c2facedecdcf4d.png">
+    <img alt="Twitter" fetchpriority="high" src="https://static.wixstatic.com/media/c7d035ba85f6486680c2facedecdcf4d.png/v1/fill/w_33,h_33,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c7d035ba85f6486680c2facedecdcf4d.png" style="width: 26px; height: 26px; object-fit: cover;"></wow-image></a>&nbsp;&nbsp;&nbsp;&nbsp;<a data-testid="linkElement" href="https://instagram.com/rohanraghav186?igshid=ZDdkNTZiNTM=" target="_blank" class="oRtuWN"><wow-image id="img_2_comp-iraqdugr" class="HlRz5e YaS0jR" data-image-info="{&quot;containerId&quot;:&quot;dataItem-iraqduk31-comp-iraqdugr&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;imageData&quot;:{&quot;width&quot;:200,&quot;height&quot;:200,&quot;uri&quot;:&quot;01c3aff52f2a4dffa526d7a9843d46ea.png&quot;,&quot;name&quot;:&quot;&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}" data-bg-effect-name="" data-has-ssr-src="" style="--wix-img-max-width:max(200px, 100%)" data-src="https://static.wixstatic.com/media/01c3aff52f2a4dffa526d7a9843d46ea.png/v1/fill/w_33,h_33,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/01c3aff52f2a4dffa526d7a9843d46ea.png">
+    <img alt="Instagram" fetchpriority="high" src="https://static.wixstatic.com/media/01c3aff52f2a4dffa526d7a9843d46ea.png/v1/fill/w_33,h_33,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/01c3aff52f2a4dffa526d7a9843d46ea.png" style="width: 26px; height: 26px; object-fit: cover;"></wow-image></a></div></div>
+                 <br>
+            </div>
+            </body>
+</html>
