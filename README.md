@@ -1,5 +1,5 @@
 - 🔭 I’m currently a student at Chandigarh University
-- 🌱 I’m currently learning Node Js
+- 🌱 I’m currently learning Machine Learning
 - 👯 I’m looking to collaborate on ...
 - 🤔 I’m looking for help with Backend Development
 - 💬 Ask me about Frontend Development
