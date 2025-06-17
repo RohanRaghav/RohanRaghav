@@ -98,7 +98,7 @@
 
 - [LinkedIn](www.linkedin.com/in/rohan-raghav-b0b07a24a)  
 - [GitHub](https://github.com/RohanRaghav)  
-- [Portfolio Website](https://rohan-raghav-portfolio.vercel.app/) *(optional)*
+- [Portfolio Website](https://rohan-raghav-portfolio.vercel.app/)
 
 ---
 
