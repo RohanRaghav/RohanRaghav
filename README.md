@@ -106,7 +106,7 @@
 
 - [LinkedIn](https://www.linkedin.com/in/rohan-raghav-b0b07a24a)  
 - [GitHub](https://github.com/RohanRaghav)  
-- [Portfolio Website]((https://profile-two-kohl.vercel.app/))
+- [Portfolio Website]((https://profile-two-kohl.vercel.app))
 
 ---
 
