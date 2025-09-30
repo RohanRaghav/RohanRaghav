@@ -24,19 +24,19 @@
 ### 🚀 Languages
 - **JavaScript, Python** – ⭐⭐⭐ (Advanced)  
 - **C++, Java, C** – ⭐⭐ (Intermediate)  
-- **TypeScript, PHP, Kotlin, Solidity** – ⭐ (Beginner to Intermediate)
+- **TypeScript, PHP, Kotlin, Solidity, HTML, CSS** – ⭐ (Beginner to Intermediate)  
 
 ### 🌐 Frontend
 - **React.js, Next.js, Tailwind CSS** – ⭐⭐⭐ (Advanced)  
-- **HTML, CSS** – ⭐⭐⭐ (Advanced)  
 - **React Native** – ⭐⭐ (Intermediate)
 
 ### 🔧 Backend & Database
 - **Node.js, Express.js, MongoDB** – ⭐⭐⭐ (Advanced)  
 - **MySQL, Firebase** – ⭐⭐ (Intermediate)
 
-### 🧠 Machine Learning
-- **Python (ML basics), scikit-learn, NLP** – ⭐⭐ (Intermediate)
+### 🧠 Machine Learning & AI
+- **Python (ML basics), scikit-learn, NLP, TensorFlow, PyTorch** – ⭐⭐ (Intermediate)  
+- **BERT, BiLSTM, Multi-label Classification** – ⭐⭐ (Intermediate)
 
 ### 🔐 Other Domains
 - **Full Stack Development** – ⭐⭐⭐  
@@ -94,11 +94,19 @@
 
 ---
 
+## 🌐 Languages Used Across Projects
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RohanRaghav&layout=compact&langs_count=10&theme=radical" alt="Top Languages" />
+</p>
+
+---
+
 ## 📫 Let's Connect!
 
-- [LinkedIn](www.linkedin.com/in/rohan-raghav-b0b07a24a)  
+- [LinkedIn](https://www.linkedin.com/in/rohan-raghav-b0b07a24a)  
 - [GitHub](https://github.com/RohanRaghav)  
-- [Portfolio Website](https://rohan-raghav-portfolio.vercel.app/)
+- [Portfolio Website]((https://profile-two-kohl.vercel.app/))
 
 ---
 
