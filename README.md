@@ -66,7 +66,7 @@ Python (ML) 🧠 | TensorFlow | PyTorch | NLP | BERT | BiLSTM – **Intermediate
 ## 🏆 Achievements & Highlights
 
 <p align="center">
-  <img src="https://github.com/DenverCoder1/readme-typing-svg/blob/main/demo.gif?raw=true" width="400" />
+  <img src="https://github.com/rajput2107/rajput2107/blob/master/Assets/Developer.gif?raw=true" width="120" alt="Developer Animation" />
 </p>
 
 | 🏅 Category | 💫 Details |
@@ -108,8 +108,11 @@ Python (ML) 🧠 | TensorFlow | PyTorch | NLP | BERT | BiLSTM – **Intermediate
 | 🗣️ **Jarvis (AI Assistant)** | Python-based virtual assistant with vision and speech |
 | 💻 **Tekathon 3.0 Website** | Event management & submission system |
 
-➡️ **Explore More:** [GitHub Repositories →](https://github.com/RohanRaghav?tab=repositories)
-
+<p align="center">
+  <a href="https://github.com/RohanRaghav?tab=repositories">
+    <img src="https://img.shields.io/badge/➡️%20View%20More%20Projects-black?style=for-the-badge&logo=github" alt="GitHub Repos" />
+  </a>
+</p>
 ---
 
 ## 🌐 Languages Used Across Projects
@@ -122,14 +125,17 @@ Python (ML) 🧠 | TensorFlow | PyTorch | NLP | BERT | BiLSTM – **Intermediate
 
 ## 📊 GitHub Stats & Activity
 
+<h2 align="center">📊 GitHub Stats</h2>
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=RohanRaghav&show_icons=true&theme=radical" height="165" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=RohanRaghav&theme=radical&date_format=M%20j%5B%2C%20Y%5D" height="165" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=RohanRaghav&show_icons=true&theme=tokyonight&hide_border=true" width="48%" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RohanRaghav&theme=tokyonight&hide_border=true" width="48%" alt="GitHub Streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=RohanRaghav&theme=radical&no-frame=true&margin-w=10&row=1" alt="GitHub Trophies" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=RohanRaghav&bg_color=0f172a&color=38bdf8&line=8b5cf6&point=22d3ee&area=true&hide_border=true" width="95%" alt="Activity Graph" />
 </p>
+
 
 ---
 
@@ -156,6 +162,4 @@ Python (ML) 🧠 | TensorFlow | PyTorch | NLP | BERT | BiLSTM – **Intermediate
 ---
 
 ⭐ *“Code with clarity. Build with purpose.”* ⚡  
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2500&pause=1000&color=00BFFF&center=true&vCenter=true&width=500&lines=Made+with+❤️+by+Rohan+Raghav;Keep+Building+Keep+Learning!"/>
-</p>
+<h3 align="center">💫 Made with ❤️ by <a href="https://github.com/RohanRaghav">Rohan Raghav</a> 💫</h3>
