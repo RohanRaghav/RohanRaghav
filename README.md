@@ -1,8 +1,8 @@
 <h1 align="center">👋 Hey there, I'm <span style="color:#00bfff;">Rohan Raghav</span>!</h1>
-<h3 align="center">🚀 Full Stack Developer | 🤖 AI Enthusiast | 🏆 Hackathon Finalist</h3>
+<h3 align="center">🚀 Full Stack Developer | 🤖 AI Enthusiast | 📲App Developer | 🖌️Graphic Designer | 🏆 Hackathon Finalist</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Poppins&size=25&pause=1000&color=00BFFF&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;AI%2FML+Enthusiast;Hackathon+Finalist;Always+Learning+New+Things!"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&size=25&pause=1000&color=00BFFF&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;AI%2FML+Enthusiast;App+Developer;Graphic+Designer;Hackathon+Finalist;Always+Learning+New+Things!"/>
 </p>
 
 <p align="center">
