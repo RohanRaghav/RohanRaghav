@@ -36,7 +36,7 @@
 ## ⚙️ Tech Stack & Skill Level
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=js,py,cpp,java,ts,php,html,css,react,next,tailwind,express,nodejs,mongodb,mysql,firebase,git,figma,blender" />
+  <img src="https://skillicons.dev/icons?i=js,py,cpp,ts,php,html,css,react,next,tailwind,express,nodejs,mongodb,mysql,firebase,git,figma,blender" />
 </p>
 
 <p align="center">
@@ -81,7 +81,7 @@ Python (ML) 🧠 | TensorFlow | PyTorch | NLP | BERT | BiLSTM – **Intermediate
 ## 👨‍💼 Experience Timeline
 
 <p align="center">
-  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/64391274/cc09cdbf-5a2b-4980-bb14-cf54b2d1f7b4" width="450"/>
+  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/64391274/e54e50f5-2a9d-470e-9f76-77ef06ef8a79" width="400" alt="experience timeline"/>
 </p>
 
 | 🧑‍💼 Role | 🏢 Organization | 📅 Duration |
@@ -97,7 +97,7 @@ Python (ML) 🧠 | TensorFlow | PyTorch | NLP | BERT | BiLSTM – **Intermediate
 ## 🚀 Featured Projects
 
 <p align="center">
-  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/64391274/f98a0b7a-ef10-4b20-a51e-d2d6a3e2b4b9" width="400"/>
+  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/64391274/b58a1104-6090-46c9-9bb1-8484e02b64b2" width="400" alt="projects animation"/>
 </p>
 
 | 🔧 Project | 💡 Description |
@@ -157,5 +157,5 @@ Python (ML) 🧠 | TensorFlow | PyTorch | NLP | BERT | BiLSTM – **Intermediate
 
 ⭐ *“Code with clarity. Build with purpose.”* ⚡  
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F75C7E&width=435&lines=Made+with+❤️+by+Rohan+Raghav" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2500&pause=1000&color=00BFFF&center=true&vCenter=true&width=500&lines=Made+with+❤️+by+Rohan+Raghav;Keep+Building+Keep+Learning!"/>
 </p>
