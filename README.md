@@ -64,7 +64,7 @@ Python (ML) 🧠 | TensorFlow | PyTorch | NLP | BERT | BiLSTM – **Intermediate
 ---
 
 ## 🏆 Achievements & Highlights
-
+<p align="center>
 | 🏅 Category | 💫 Details |
 |--------------|-------------|
 | 🥇 **Hackathon Finalist (9+ Times)** | DTU – Code for Good, JECRC Innov8, Tekathon 3.0 (CU), Spark Tank (2nd Place), CU GenAI |
@@ -73,12 +73,11 @@ Python (ML) 🧠 | TensorFlow | PyTorch | NLP | BERT | BiLSTM – **Intermediate
 | 🎯 **Events Organized** | 10+ Tech & Smart Talks |
 
 ---
-
+</p>
 ## 👨‍💼 Experience Timeline
 
 <p align="center">
   <img src="https://github.com/rajput2107/rajput2107/blob/master/Assets/Developer.gif?raw=true" width="120" alt="Developer Animation" />
-</p>
 
 | 🧑‍💼 Role | 🏢 Organization | 📅 Duration |
 |------------|----------------|-------------|
@@ -89,7 +88,7 @@ Python (ML) 🧠 | TensorFlow | PyTorch | NLP | BERT | BiLSTM – **Intermediate
 | 📣 Marketing Intern | IEEE | Nov 2022 – Dec 2023 |
 
 ---
-
+</p>
 ## 🚀 Featured Projects
 
 <h2 align="center">🚀 Featured Projects</h2>
