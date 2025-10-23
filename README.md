@@ -86,9 +86,6 @@ Python (ML) 🧠 | TensorFlow | PyTorch | NLP | BERT | BiLSTM – **Intermediate
 | 🌐 Full Stack Developer | AIT Triads | Nov 2024 – Jan 2025 |
 | 📣 Marketing Intern | IEEE | Nov 2022 – Dec 2023 |
 
-
-## 🚀 Featured Projects
-
 <h2 align="center">🚀 Featured Projects</h2>
 
 <p align="center">
