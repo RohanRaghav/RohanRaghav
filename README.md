@@ -65,10 +65,6 @@ Python (ML) 🧠 | TensorFlow | PyTorch | NLP | BERT | BiLSTM – **Intermediate
 
 ## 🏆 Achievements & Highlights
 
-<p align="center">
-  <img src="https://github.com/rajput2107/rajput2107/blob/master/Assets/Developer.gif?raw=true" width="120" alt="Developer Animation" />
-</p>
-
 | 🏅 Category | 💫 Details |
 |--------------|-------------|
 | 🥇 **Hackathon Finalist (9+ Times)** | DTU – Code for Good, JECRC Innov8, Tekathon 3.0 (CU), Spark Tank (2nd Place), CU GenAI |
@@ -81,7 +77,7 @@ Python (ML) 🧠 | TensorFlow | PyTorch | NLP | BERT | BiLSTM – **Intermediate
 ## 👨‍💼 Experience Timeline
 
 <p align="center">
-  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/64391274/e54e50f5-2a9d-470e-9f76-77ef06ef8a79" width="400" alt="experience timeline"/>
+  <img src="https://github.com/rajput2107/rajput2107/blob/master/Assets/Developer.gif?raw=true" width="120" alt="Developer Animation" />
 </p>
 
 | 🧑‍💼 Role | 🏢 Organization | 📅 Duration |
@@ -96,18 +92,19 @@ Python (ML) 🧠 | TensorFlow | PyTorch | NLP | BERT | BiLSTM – **Intermediate
 
 ## 🚀 Featured Projects
 
+<h2 align="center">🚀 Featured Projects</h2>
+
 <p align="center">
-  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/64391274/b58a1104-6090-46c9-9bb1-8484e02b64b2" width="400" alt="projects animation"/>
+  <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="200" alt="Projects Animation" />
 </p>
 
-| 🔧 Project | 💡 Description |
-|-------------|----------------|
-| 🌐 **CAC Club Website** | MERN stack platform for student developers |
-| 🎬 **Cinematic Video Generator** | NLP-based scene composer using Python & MoviePy |
-| 🧠 **Student Performance Predictor** | Logistic regression-based academic outcome predictor |
-| 🗣️ **Jarvis (AI Assistant)** | Python-based virtual assistant with vision and speech |
-| 💻 **Tekathon 3.0 Website** | Event management & submission system |
-
+<ul>
+  <li>🌐 <b>CAC Club Official Website</b> – MERN Stack Platform</li>
+  <li>🎬 <b>Cinematic Video Generator</b> – NLP-based Python Scene Composer</li>
+  <li>🧠 <b>Student Performance Prediction</b> – ML Logistic Regression Model</li>
+  <li>🗣️ <b>Jarvis (Virtual AI Assistant)</b> – Python Voice Assistant</li>
+  <li>💻 <b>Tekathon 3.0 Website</b> – End-to-End Event Solution</li>
+</ul>
 <p align="center">
   <a href="https://github.com/RohanRaghav?tab=repositories">
     <img src="https://img.shields.io/badge/➡️%20View%20More%20Projects-black?style=for-the-badge&logo=github" alt="GitHub Repos" />
