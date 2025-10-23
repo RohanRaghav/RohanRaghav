@@ -70,13 +70,14 @@ Python (ML) 🧠 | TensorFlow | PyTorch | NLP | BERT | BiLSTM – **Intermediate
 | 📜 **Certifications** | Microsoft Certified: Azure AI Fundamentals, Coursera, LinkedIn Learning |
 | 💬 **Recognition** | Letter of Appreciation from AIT Triads |
 | 🎯 **Events Organized** | 10+ Tech & Smart Talks |
-
 ---
 ## 👨‍💼 Experience Timeline
 
 <p align="center">
   <img src="https://github.com/rajput2107/rajput2107/blob/master/Assets/Developer.gif?raw=true" width="120" alt="Developer Animation" />
 </p>
+<br/>
+
 | 🧑‍💼 Role | 🏢 Organization | 📅 Duration |
 |------------|----------------|-------------|
 | 💻 Full Stack Developer Intern | Onecrtech | Dec 2024 – Jan 2025 |
@@ -85,7 +86,6 @@ Python (ML) 🧠 | TensorFlow | PyTorch | NLP | BERT | BiLSTM – **Intermediate
 | 🌐 Full Stack Developer | AIT Triads | Nov 2024 – Jan 2025 |
 | 📣 Marketing Intern | IEEE | Nov 2022 – Dec 2023 |
 
----
 
 ## 🚀 Featured Projects
 
