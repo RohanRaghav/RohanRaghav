@@ -13,13 +13,23 @@
 
 ## 🧑‍💻 About Me
 
-- 🎓 B.E. in **Computer Science & Engineering (AI/ML)** @ *Chandigarh University*  
-- 💡 Passionate about **Full Stack Development**, **AI/ML**, and **building real-world products**  
-- ♟️ Chess lover (1200+ ELO on Chess.com)  
-- 🚀 **9+ Hackathon Finalist** including DTU, JECRC, CU & more  
-- 🎤 Organized **10+ Tech Talks & Workshops**  
-- 🌐 Completed **24+ Projects** | **700+ LinkedIn Connections**  
-- 💼 Worked with multiple startups & technical societies  
+<p align="center">
+  <img src="https://github.com/arsentieva/arsentieva/blob/main/code.gif?raw=true" width="350" />
+</p>
+
+<p align="center">
+🎓 <b>B.E. in Computer Science & Engineering (AI/ML)</b> from <b>Chandigarh University</b><br/>
+💡 Passionate about <b>Full Stack Development</b>, <b>AI/ML</b>, and building <b>real-world solutions</b><br/>
+♟️ Chess lover with 1200+ ELO on Chess.com<br/>
+🚀 Finalist in <b>9+ National Hackathons</b> (DTU, JECRC, CU & more)<br/>
+📢 Organized <b>10+ Tech & Smart Talk Events</b><br/>
+🌐 Completed <b>24+ Projects</b> | <b>700+ LinkedIn Connections</b><br/>
+💼 Worked with <b>startups, clubs, and tech societies</b>
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2000&pause=1000&color=F7A41D&center=true&vCenter=true&width=600&lines=Learning+Never+Stops...;Building+New+Ideas+Every+Day...;Innovating+With+Code+%F0%9F%92%BB"/>
+</p>
 
 ---
 
@@ -27,6 +37,10 @@
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=js,py,cpp,java,ts,php,html,css,react,next,tailwind,express,nodejs,mongodb,mysql,firebase,git,figma,blender" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/abhisheknaiidu/abhisheknaiidu/raw/master/code.gif" width="400" />
 </p>
 
 ### 🧠 Languages
@@ -45,14 +59,15 @@ Node.js 🚀 | Express.js 🌐 | MongoDB 🍃 – **Advanced**
 MySQL 🗄️ | Firebase 🔥 – **Intermediate**
 
 ### 🤖 AI / ML
-Python (ML) 🧠 | Scikit-learn | TensorFlow | PyTorch | NLP | BERT | BiLSTM – **Intermediate**
-
-### 🧰 Tools
-Git 🧩 | Figma 🎨 | Canva 🖌️ | Blender 🌀 | Scratch 👾
+Python (ML) 🧠 | TensorFlow | PyTorch | NLP | BERT | BiLSTM – **Intermediate**
 
 ---
 
 ## 🏆 Achievements & Highlights
+
+<p align="center">
+  <img src="https://github.com/DenverCoder1/readme-typing-svg/blob/main/demo.gif?raw=true" width="400" />
+</p>
 
 | 🏅 Category | 💫 Details |
 |--------------|-------------|
@@ -65,6 +80,10 @@ Git 🧩 | Figma 🎨 | Canva 🖌️ | Blender 🌀 | Scratch 👾
 
 ## 👨‍💼 Experience Timeline
 
+<p align="center">
+  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/64391274/cc09cdbf-5a2b-4980-bb14-cf54b2d1f7b4" width="450"/>
+</p>
+
 | 🧑‍💼 Role | 🏢 Organization | 📅 Duration |
 |------------|----------------|-------------|
 | 💻 Full Stack Developer Intern | Onecrtech | Dec 2024 – Jan 2025 |
@@ -76,6 +95,10 @@ Git 🧩 | Figma 🎨 | Canva 🖌️ | Blender 🌀 | Scratch 👾
 ---
 
 ## 🚀 Featured Projects
+
+<p align="center">
+  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/64391274/f98a0b7a-ef10-4b20-a51e-d2d6a3e2b4b9" width="400"/>
+</p>
 
 | 🔧 Project | 💡 Description |
 |-------------|----------------|
