@@ -116,8 +116,6 @@ Python (ML) 🧠 | TensorFlow | PyTorch | NLP | BERT | BiLSTM – **Intermediate
 
 ## 📊 GitHub Stats & Activity
 
-<h2 align="center">📊 GitHub Stats</h2>
-
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=RohanRaghav&show_icons=true&theme=tokyonight&hide_border=true" width="48%" alt="GitHub Stats" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=RohanRaghav&theme=tokyonight&hide_border=true" width="48%" alt="GitHub Streak" />
