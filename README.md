@@ -47,7 +47,7 @@
 | Category | Tools | Level |
 |-----------|--------|-------|
 | 🚀 **Core** | JavaScript, Python | ⭐⭐⭐ |
-| 💻 **Programming** | C++, Java, C | ⭐⭐ |
+| 💻 **Programming** | C++, C | ⭐⭐ |
 | 🌐 **Others** | TypeScript, PHP, Kotlin, Solidity | ⭐ |
 
 ### 🎨 Frontend
